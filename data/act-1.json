@@ -1,0 +1,285 @@
+{
+    "introduction": {
+        "text": "In the eastern lands of Valoria, it has been a long tradition to send the children of the Dragon Slayers, house of Valorheart to the revered Dragon-Slaying Temple, a place of intense training where they learn the heroic ways of their ancestors.</br>These young warriors and mages are prepared to protect their homeland from the looming shadow of the Dark Dragon Legion. The Dragon Slayers are masters of two noble paths. Warriors wield weapons and armor forged from the fangs and scales of dragons, while Mages command staffs infused with the lifeblood of these majestic creatures. These powerful tools demand not only skill but also a deep understanding of ancient arts. It takes years of dedication to master them.</br> Once their training is complete, the Slayers return home as guardians of Valoria, ready to face the ever-present threat of war. Centuries ago, during the Age of the Black Moon, Valoria faced its darkest hour. The fearsome Dark Dragon Acnologia unleashed devastation, leading the Dark Dragon Legion in a brutal war. The people of Valoria fought with courage, and their hero, King Eldrin Valorheart, led the charge. The final battle, known as the Battle of Crimson Sky, ended in a bittersweet victory. King Eldrin vanquished Acnologia, but not without great sacrifice. </br>The mighty Red Dragon Igneel, gravely wounded by Acnologia, made the ultimate act of heroism. With his dying breath, he gave Eldrin his strongest fang, hardest scale, and lifeblood. These were forged into Drakarys, a legendary weapon that turned the tide of the war, driving the Dark Legion into the depths of Darkreach Chasm. But peace has always been fragile. </br>The Dark Legion, vowing revenge, has lingered in the shadows, waiting for their moment to strike. Knowing this, the Dragon Slayers have trained tirelessly through the generations, ready to defend Valoria when the dark forces rise again.",
+        "choices": [
+            {
+                "text": "Proceed",
+                "next": "page1"
+            }
+        ]
+    },
+    "page1": {
+        "text": "Dawn breaks over Valoria, its golden rays illuminating the ancient Dragon-Slaying Temple. Today marks your coming-of-age ceremony, a moment of honor and trial. To earn the title of Dragon Slayer, you must prove your worth in combat. As you step into the hallowed arena, the cheers of your fellow apprentices echo against the stone walls. Their eyes are fixed on you, their hopes and expectations palpable in the air. Your opponent steps forward—a seasoned Dragon Slayer, their blade glinting in the morning light. This is no ordinary duel; this is your rite of passage, the culmination of years of grueling training. The moment has come. Warrior or mage, the path you choose now will shape your destiny.",
+        "choices": [
+            {
+                "text": "I am a Warrior!",
+                "next": "page2"
+            },
+            {
+                "text": "I am a Mage!",
+                "next": "page3"
+            }
+        ],
+        "img": "../assets/Player-Class-Choice.png"
+    },
+    "page2": {
+        "text": "Your opponent's blade crashes into your shield, sending shockwaves through your arms. The force is immense, but you stand firm, countering with a swing of your own. The clash of steel fills the air, each strike a testament to your training. Suddenly, a bone-chilling roar pierces the arena. The sound is unearthly, primal, and it silences the crowd. Beyond the temple walls, plumes of black smoke rise against the horizon, painting the skies with foreboding shadows.",
+        "choices": [
+            {
+                "text": "Rush to investigate the commotion",
+                "next": "page4"
+            },
+            {
+                "text": "Regroup with your fellow apprentices",
+                "next": "page5"
+            }
+        ],
+        "img": "../assets/warrior-spar.png"
+    },
+    "page3": {
+        "text": "The fireball crashes against your arcane shield, its energy dispersing in a dazzling display of light. You steady yourself, drawing upon your reservoir of magic to launch a counterattack. The duel is fierce, your opponent's mastery pushing you to your limits. Then it happens—a roar, deep and resonant, shatters the stillness of the temple grounds. The sky darkens as columns of smoke billow from beyond the temple walls. A chill runs through you as the air grows heavy with dread.",
+        "choices": [
+            {
+                "text": "Rush to investigate the commotion",
+                "next": "page4"
+            },
+            {
+                "text": "Regroup with your fellow apprentices",
+                "next": "page5"
+            }
+        ],
+        "img": "../assets/mage-spar.png"
+    },
+    "page4": {
+        "text": "From the smoke, a swarm of black-winged beasts emerges, their shrieks echoing across the skies. The sun is blotted out, leaving the temple shrouded in shadow. The Dark Legion has arrived. Their forces breach the gates with ruthless precision, sowing chaos in their wake. You stand amidst the turmoil, heart racing. The temple is burning, its defenders overwhelmed. This is no ordinary attack—it is war.",
+        "choices": [
+            {
+                "text": "Stand and fight",
+                "next": "page6"
+            },
+            {
+                "text": "Escape through the hidden tunnel",
+                "next": "page7"
+            }
+        ],
+        "img": "../assets/Dark-Legion-Invasion.png"
+    },
+    "page5": {
+        "text": "You find your mentor amidst the chaos, rallying a group of apprentices. Their voice cuts through the din of battle like steel: 'Hold the line! We cannot let them overrun the temple!' The enemy closes in, their numbers overwhelming. The weight of the moment presses on you. Do you stand and fight beside your mentor, or retreat to the hidden tunnels for a chance to regroup?",
+        "choices": [
+            {
+                "text": "Follow your mentor into battle",
+                "next": "page6"
+            },
+            {
+                "text": "Suggest retreating to the hidden tunnel",
+                "next": "page7"
+            }
+        ],
+        "img": "../assets/mentor.png"
+    },
+    "page6": {
+        "text": "You stand your ground as chaos erupts around you. Time seems to slow as you try to reach for your weapon which was lost in the chaos. You must act quickly, for the Dark Legion's forces are closing in. This is your first ability roll. In Legacy of the Dragon-Marked, you will face many challenges that require you to roll the dice. Your abilities will determine your success or failure. In this case, you must roll for dexterity to retrieve your weapon before the enemy reaches you. Roll the dice to see if you succeed.",
+        "choices": [
+            {
+                "text": "Roll for dexterity",
+                "next": "page6_roll_5_dexterity"
+            }
+        ]
+    },
+    "page6_roll_5_dexterity": {
+        "text": "Your reflexes are tested as you attempt to get your weapon in time."
+    },
+    "page6_success": {
+        "text": "With lightning speed, you were able to get your weapon just in time. The battle rages fierce and your combat prowess grows with each enemy you face. Despite your valiant efforts, the Dark Legion's numbers prove overwhelming. Your mentor falls, their final cry etched into your memory. With heavy heart but newfound strength, you retreat to the hidden tunnels.</br> You have optained a 'Novice Weapon' in your inventory. This weapon adds +2 to any attack roll you make.</br>Click on the Character Sheet button to view your inventory and character stats.",
+        "choices": [
+            {
+                "text": "Press onward through the hidden tunnel",
+                "next": "page6_combat"
+            }
+        ],
+        "inventory": "Novice Weapon",
+        "img": "../assets/page6_success.png"
+    },
+    "page6_fail": {
+        "text": "You fumble reaching for your weapon. The Dark Legion's assault is merciless, forcing you to retreat immediately to the hidden tunnels, your mentor's final cry echoing in your ears.",
+        "choices": [
+            {
+                "text": "Press onward through the hidden tunnel",
+                "next": "page7"
+            }
+        ]
+    },
+    "page6_combat": {
+        "text": "The clash of steel and the cries of battle surround you. You fight with all your might, but the Dark Legion's numbers are unrelenting. Your mentor falls, their final cry etched into your memory. Despair grips you as the tide turns against you. With no other choice, you retreat to the hidden tunnels, a last bastion of hope amidst the carnage.",
+        "choices": [
+            {
+                "text": "Press onward through the hidden tunnel",
+                "next": "page6_levelup"
+            }
+        ]
+    },
+    "page6_levelup": {
+        "text": "From your experience in this battle, you have gained enough experience to level up. You now get to allocate one skill point in one of the following attributes:</br>- Strength: Increases your physical power, allowing you to deal more damage with melee attacks and perform feats of might.</br>- Dexterity: Enhances your agility and reflexes, improving your ability to dodge attacks and perform precise actions.</br>- Intelligence: Boosts your magical prowess, increasing the potency of your spells and your ability to understand and use arcane knowledge.</br>- Charisma: Improves your ability to influence others, making it easier to persuade or deceive those you encounter.</br>The ability bonuses will be added to your dice rolls in future challenges. For example, if you are doing a dexterity roll, after you roll the dice, you get a base number, if you had a +1 to dexterity, then it will be added to the base number.",
+        "choices": [
+            {
+                "text": "+1 Strength",
+                "next": "page7"
+            },
+            {
+                "text": "+1 Dexterity",
+                "next": "page7"
+            },
+            {
+                "text": "+1 Intelligence",
+                "next": "page7"
+            },
+            {
+                "text": "+1 Charisma",
+                "next": "page7"
+            }
+        ]
+    },
+    "page7": {
+        "text": "The hidden tunnels stretch before you, dark and foreboding. Behind you, the sound of collapsing stone seals the entrance, silencing the cries of your fallen comrades and cutting off pursuit. The air is heavy, filled with the scent of damp earth and despair. You and the few survivors press on, the faint glimmer of an exit your only beacon.",
+        "choices": [
+            {
+                "text": "Head for the hidden tunnel exit",
+                "next": "page8"
+            }
+        ],
+        "img": "../assets/hidden-tunnel.png"
+    },
+    "page8": {
+        "text": "You emerge from the tunnel into an open clearing, but your relief is short-lived. Before you stands a massive dark dragon, its obsidian scales glinting like black diamonds in the faint light. Its molten-gold eyes fix upon you with a chilling intensity, and it roars, shaking the very ground beneath your feet. You must decide your next move, knowing that either choice may seal your fate.",
+        "choices": [
+            {
+                "text": "Flee back into the tunnel where it cannot follow",
+                "next": "page9"
+            },
+            {
+                "text": "Stand and fight",
+                "next": "page10"
+            }
+        ],
+        "img": "../assets/dark-dragon.png"
+    },
+    "page9": {
+        "text": "You turn and flee into the tunnel, hoping to escape the beast's wrath. But the dark dragon is not so easily thwarted. It unleashes a torrent of flame, the heat searing the air as the fire consumes you. Your journey ends here.",
+        "choices": [
+            {
+                "text": "Restart",
+                "next": "introduction"
+            }
+        ]
+    },
+    "page10": {
+        "text": "The storm gathers in a churning mass above you, casting the clearing in shadow. The air is heavy, charged with a tension that presses against your chest, as if the heavens themselves hold their breath. The rustle of brittle leaves in the cold wind is the only sound, a faint whisper of life amidst the encroaching dread. Your hands tremble, your heart thunders against your ribs, but you stand firm, gripping what courage remains as the dragon descends.",
+        "choices": [
+            {
+                "text": "Roll the dice to face the dragon",
+                "next": "page10_roll_7_class"
+            }
+        ]
+    },
+    "page10_roll_7_mage_noWeapon": {
+        "text": "Even without your staff, you gather every ounce of your magic, weaving every ounce of your strength into a flurry of spells. The clearing bursts to life with light and sound as arcs of power tear through the air, striking the beast with crackling force.",
+        "choices": [
+            {
+                "text": "Roll the dice",
+                "next": "page10_roll_7"
+            }
+        ],
+        "img": "../assets/Fighting Dragon.png"
+    },
+    "page10_roll_7_mage": {
+        "text": "You summon your magic through your staff, weaving every ounce of your strength into a flurry of spells. The clearing bursts to life with light and sound as arcs of power tear through the air, striking the beast with crackling force. Your weapon gives you +2 bonus to your attack roll.",
+        "choices": [
+            {
+                "text": "Roll the dice",
+                "next": "page10_roll_7"
+            }
+        ],
+        "img": "../assets/Fighting Dragon.png"
+    },
+    "page10_fail_mage": {
+        "text": "Your magical assault strikes true and for a fleeting moment, You thought to yourself, its finally over. Howver, as the dust and debris settle, hope dies as quickly as it is born. The dragon shakes off your assault, its obsidian scales gleaming, untouched and invincible. The ground quakes beneath you as the dragon speaks, its voice a deep, guttural rumble that pierces through the storm. 'What a disappointment,' it growls, its tone dripping with disdain. 'I am Vermax, son of Acnologia. I came seeking vengeance for my father and to test the strength of the Valorheart bloodline. But you are no match for your ancestors. A pale shadow of King Eldrin's might.' The molten gold of its eyes flares as it leans closer, the weight of its gaze crushing. 'This was not worth my time. Have it writ upon thy meager grave, felled by Vermax, son of Acnologia!' Without warning, the dragon's maw opens wide, a blinding torrent of flame erupting forth. There is no time to react, no room for escape. The searing heat engulfs you, and everything fades to black. Vermax lets out a low, rumbling sigh, a mix of frustration and disdain. The dragon turns and disappears into the storm, searching for its next challenger.",
+        "choices": [
+            {
+                "text": "Restart",
+                "next": "introduction"
+            }
+        ],
+        "img": "../assets/Fighting Dragon.png"
+    },
+    "page10_success_mage": {
+        "text": "Your magical assault strikes true, causing the dragon to roar in pain and surprise. Though its scales remain largely intact, you've proven yourself worthy of its attention. The beast regards you with newfound respect, its molten gold eyes gleaming with interest rather than scorn. The earth trembles as the dragon speaks, its voice a deep, resonant rumble that seems to shake the world. 'Well, thou art of passing skill, powerful blood must truly run in thy veins, mortal' it says, a note of approval in its tone. 'I am Vermax, son of Acnologia. I have come to test the strength of those who opposed my father.' The dragon's expression shifts to one of consideration. 'You bear the blood of King Eldrin, the slayer of the Dark Dragon, and I see now that his power flows through your veins. Though you are not yet his equal, you show... promise.'",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "page10_choice"
+            }
+        ],
+        "img": "../assets/Fighting Dragon.png"
+    },
+    "page10_roll_7_warrior_noWeapon": {
+        "text": "Even without your sword, every muscle in your body coils like a spring. With a roar, you charge at the dragon, your fist aiming at his eyes. The clearing erupts in a cacophony of steel and fury as you unleash your full might upon the beast.",
+        "choices": [
+            {
+                "text": "Roll the dice",
+                "next": "page10_roll_7"
+            }
+        ],
+        "img": "../assets/Fighting Dragon.png"
+    },
+    "page10_roll_7_warrior": {
+        "text": "You grip your weapon tightly, every muscle in your body coiled like a spring. With a roar, you charge at the dragon, your blade aimed at its heart. The clearing erupts in a cacophony of steel and fury as you unleash your full might upon the beast. Your weapon gives you +2 bonus to your attack roll.",
+        "choices": [
+            {
+                "text": "Roll the dice",
+                "next": "page10_roll_7"
+            }
+        ],
+        "img": "../assets/Fighting Dragon.png"
+    },
+    "page10_fail_warrior": {
+        "text": "Your blade strikes true, but the dragon's scales are like iron, deflecting your attack with ease. The beast's molten eyes narrow, and a low growl rumbles from its chest. 'Pathetic,' it sneers, its voice dripping with contempt. 'I am Vermax, son of Acnologia. I came seeking vengeance for my father and to test the strength of the Valorheart bloodline. But you are no match for your ancestors. A pale shadow of King Eldrin's might.' The dragon's massive claw lashes out, sending you sprawling to the ground. 'This was not worth my time. Have it writ upon thy meager grave, felled by Vermax, son of Acnologia!' With a final, disdainful snort, the dragon unleashes a torrent of flame, consuming you in an instant. Your journey ends here.",
+        "choices": [
+            {
+                "text": "Restart",
+                "next": "introduction"
+            }
+        ],
+        "img": "../assets/Fighting Dragon.png"
+    },
+    "page10_success_warrior": {
+        "text": "Your blade strikes true, causing the dragon to roar in pain and surprise. Though its scales remain largely intact, you can see that you have left a small mark! you've proven yourself worthy of its attention. The beast regards you with newfound respect, its molten gold eyes gleaming with interest rather than scorn. The earth trembles as the dragon speaks, its voice a deep, resonant rumble that seems to shake the world. 'Well, thou art of passing skill, powerful blood must truly run in thy veins, mortal' it says, a note of approval in its tone. 'I am Vermax, son of Acnologia. I have come to test the strength of those who opposed my father.' The dragon's expression shifts to one of consideration. 'You bear the blood of King Eldrin, the slayer of the Dark Dragon, and I see now that his power flows through your veins. Though you are not yet his equal, you show... promise.'",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "page10_choice"
+            }
+        ],
+        "img": "../assets/Fighting Dragon.png"
+    },
+    "page10_choice": {
+        "text": "Your knees threaten to buckle under the weight of the dragon's presence, but sheer pride and defiance keep you upright. Vermax's molten eyes narrow, and a low rumble echoes from its chest, shaking the ground. Without a word, the dragon's massive claw shoots forward, talons sharper than blades piercing your chest. Time seems to stop as you feel an overwhelming surge of heat, not of pain but of power, as Vermax's claw clenches around your heart. With a swift motion, it rips your heart free, holding it aloft as it beats furiously in its grasp. You collapse to the ground, gasping for air, but instead of death, you feel a strange, burning vitality coursing through your veins. Vermax lowers its head, its voice a deep, resonant rumble that seems to come from the earth itself. 'You wonder how you still draw breath, mortal. Do not mistake this for mercy.' The dragon's molten eyes burn into you. 'Your heart is mine now, its lifeblood tied to the ancient power of my kin. You are no longer bound by mortal frailty. The power that sustains you is one of will and fate, not flesh. But know this—your survival is a curse. You are neither truly alive nor dead. Should you wish to reclaim what I have taken, you must seek the legendary weapon, Drakarys atop Dragon's Peak, and face me once more.' The dragon's massive wings spread wide, creating a tempest of wind and ash. 'Prove yourself worthy, or perish forgotten. The choice is yours.' Without another word, Vermax ascends into the sky, disappearing into the crimson horizon, leaving you to grapple with the weight of your cursed existence and the task ahead.",
+        "choices": [
+            {
+                "text": "Accept the dragon's challenge",
+                "next": "page11"
+            }
+        ],
+        "img": "../assets/heart.png"
+    },
+    "page11": {
+        "text": "The dragon's challenge echoes in your mind, a haunting reminder of the path ahead. You stand alone in the clearing, the world silent save for the rustle of leaves and the distant cry of a hawk. The weight of your new existence presses upon you, a burden that cannot be cast aside. The fate of Valoria hangs in the balance, and you are its only hope. The journey ahead is fraught with peril, but the power of Drakarys beckons, a beacon of hope in the encroaching darkness. You must prepare yourself for the trials to come, for the fate of Valoria rests in your hands.</br>Thank you for playing Legacy of the Dragon-Marked. This is the end of Act 1, the Dark Legion Invasion. We hope you enjoyed this adventure and look forward to seeing you in the next chapter where our hero will journey to the Dragon's Peak to retrieve the legendary weapon Drakarys.",
+        "choices": [
+            {
+                "text": "The End!",
+                "next": "page11"
+            }
+        ],
+        "img": "../assets/end.png"
+    }
+}

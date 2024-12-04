@@ -10,12 +10,39 @@
 </head>
 
 <body>
-    <div id="loading-screen">
-        <h3>Loading your adventure...</h3>
-        <div class="loading-spinner"></div>
-    </div>
+    <nav id="nav" class="hidden">
+        <ul id="nav-menu">
+            <li><a id="home" href="">Home</a></li>
+            <li><a id="stats" href="">Character Sheet</a></li>
+        </ul>
+    </nav>
     <main id="game-container">
+        <div class="story-container">
+            <div class="story-content">
+                <!-- Dynamic story text will be inserted here -->
+            </div>
+            <div class="choice-container">
+                <!-- Dynamic choices will be inserted here -->
+            </div>
+        </div>
     </main>
+    <div id="stats-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Player Stats</h2>
+            <h3>
+                Class: <span id="user-class"></span><br>
+                Health: <span id="user-health"></span><br>
+                Gold: <span id="user-gold"></span><br>
+                Level: <span id="user-level"></span><br>
+                Strength: <span id="user-strength"></span><br>
+                Dexterity: <span id="user-dexterity"></span><br>
+                Intelligence: <span id="user-intelligence"></span><br>
+                Charisma: <span id="user-charisma"></span><br>
+                Inventory: <span id="user-inventory"></span>
+            </h3>
+        </div>
+    </div>
 </body>
 
 </html>
